@@ -26,7 +26,7 @@ p{
 }
 section{
     height: 500px;
-    padding-bottom: 150px;
+    padding-bottom: 80px;
 }
 .top-section{
     background-image: url("images/top-banner.png");
@@ -52,4 +52,35 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+#experence-box{
+    border-left: 5px solid orange;
+    -webkit-box-shadow: 0px 0px 26px 11px rgba(0,0,0,0.58); 
+    box-shadow: 0px 0px 26px 11px rgba(0,0,0,0.58);
+}
+#certificate-img-div{
+    margin-top: -150px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 110px;
+}
+.certificates{
+    width: 15%;
+    margin-left: 60px;
+    -webkit-box-shadow: 1px 3px 26px 6px rgba(0,0,0,0.42); 
+    box-shadow: 1px 3px 26px 6px rgba(0,0,0,0.42);
+    border: 2px rgb(129, 113, 113) solid;
+    border-left: 2px solid gold;
+    border-bottom: 2px solid orange;
+    border-right: red 2px solid;
+    border-top: 2px solid red;
+}
+#experience-area{
+    background-image: url("images/exp-bg-\(2\).png");
+    background-repeat: no-repeat;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
 }
