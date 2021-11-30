@@ -76,6 +76,9 @@ section{
     border-right: red 2px solid;
     border-top: 2px solid red;
 }
+.certificates:hover{
+    border: 2px solid black;
+}
 #experience-area{
     background-image: url("images/exp-bg-\(2\).png");
     background-repeat: no-repeat;
