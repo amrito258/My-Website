@@ -11,6 +11,10 @@ h2{
 p{
     color: dimgray;
 }
+::selection{
+    background-color: orange;
+    color: white;
+}
 .name-highlight{
     color: orange;
 }
@@ -43,9 +47,7 @@ section{
 }
 .anchor-icon{
     text-decoration: none;
-    margin: 5px;
-}
-.anchor-icon i{
+    margin-left: 5px;
     font-size: 25px;
 }
 .dream-area{
@@ -71,10 +73,6 @@ section{
     -webkit-box-shadow: 1px 3px 26px 6px rgba(0,0,0,0.42); 
     box-shadow: 1px 3px 26px 6px rgba(0,0,0,0.42);
     border: 2px rgb(129, 113, 113) solid;
-    border-left: 2px solid gold;
-    border-bottom: 2px solid orange;
-    border-right: red 2px solid;
-    border-top: 2px solid red;
 }
 .certificates:hover{
     border: 2px solid black;
