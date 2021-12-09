@@ -49,6 +49,9 @@ section{
     margin-left: 5px;
     font-size: 25px;
 }
+.anchor-icon i:hover{
+    transform: scale(1.3);
+}
 .dream-area{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
